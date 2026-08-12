@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #myInput{
     width: 100%;
     height: 100px;
@@ -7,16 +12,17 @@ html, body{
 }
 
 main{
+    background-color: rgb(48, 45, 45);
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #calc{
+    box-shadow: 10px 20px 30px 20px rgba(255, 255, 255, 0.188);
     border-radius: 10px;
-
-    width: 30%;
-    height: 500px;
+    width: 70%;
+    height: 700px;
     display: grid;
     grid-template-rows: 3fr 10fr;
     grid-template-areas: 'scren' 'butoon-box';
