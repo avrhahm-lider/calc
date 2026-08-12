@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main>
+    <div id="calc">
+      <input type="text" id="scren" placeholder="0" readonly />
+      <div id="butoon-box">
+        <button class="buttonstyle" onclick="calcfunc(this)">1</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">2</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">3</button>
+        <button class="buttonstyle symbol" onclick="calcfunc(this)">+</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">4</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">5</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">6</button>
+        <button class="buttonstyle symbol" onclick="calcfunc(this)">-</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">7</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">8</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">9</button>
+        <button class="buttonstyle symbol" onclick="calcfunc(this)">*</button>
+        <button id="del" class="buttonstyle" onclick="deletefunc()">C</button>
+        <button class="buttonstyle" onclick="calcfunc(this)">0</button>
+        <button id="eq" class="buttonstyle" onclick="equalfunc()">=</button>
+
+        <button class="buttonstyle symbol" onclick="calcfunc(this)">/</button>
+      </div>
+    </div>
+    </main>
+  </body>
+</html>
