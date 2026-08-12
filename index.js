@@ -14,6 +14,12 @@
 const screnVal = document.getElementById('scren')
 
 function calcfunc(sec){
+    console.log(screnVal.value);
+    
+    console.log(screnVal.value.includes("Error!"));
+    
+    if (screnVal.value.includes("error!"))
+        screnVal.value = ""
     screnVal.value += sec.textContent
     console.log(sec.textContent);
     
